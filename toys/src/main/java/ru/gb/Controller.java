@@ -53,7 +53,6 @@ class SwitchMenu {
             case 4 -> this.manager.putToys(this.reader.read());
             case 5 -> {
                 this.raffler.createLottery(this.manager.getToys());
-//                System.out.println(this.manager.getToys());
                 this.writer.write(this.manager.getToys().size());
             }
             case 6 -> this.writer.write(this.raffler.getToys());

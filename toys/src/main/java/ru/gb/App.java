@@ -1,7 +1,7 @@
 package ru.gb;
 
 /**
- * Hello world!
+ * Магазин игрушек
  *
  */
 
